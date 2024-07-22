@@ -1,4 +1,4 @@
-## Footprint report - date 2024-07-22T08:35:41+0800
+## Footprint report - date 2024-07-22T17:53:09+0800
 ## Created by KiCad version 8.0.4
 ## Unit = mm, Angle = deg.
 
@@ -521,6 +521,110 @@ drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  D9
+
+$MODULE H1
+footprint MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad
+attribut virtual
+position 112.500000 63.000000  orientation 0.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  5.700000  5.700000  orientation 0.00
+drill  3.200000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  H1
+
+$MODULE H2
+footprint MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad
+attribut virtual
+position 222.500000 63.000000  orientation 0.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  5.700000  5.700000  orientation 0.00
+drill  3.200000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  H2
+
+$MODULE H3
+footprint MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad
+attribut virtual
+position 87.500000 103.000000  orientation 0.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  5.700000  5.700000  orientation 0.00
+drill  3.200000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  H3
+
+$MODULE H4
+footprint MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad
+attribut virtual
+position 247.500000 103.000000  orientation 0.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  5.700000  5.700000  orientation 0.00
+drill  3.200000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  H4
+
+$MODULE H5
+footprint MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad
+attribut virtual
+position 102.500000 133.000000  orientation 0.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  5.700000  5.700000  orientation 0.00
+drill  3.200000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  H5
+
+$MODULE H6
+footprint MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad
+attribut virtual
+position 232.500000 133.000000  orientation 0.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  5.700000  5.700000  orientation 0.00
+drill  3.200000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  H6
+
+$MODULE H7
+footprint MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad
+attribut virtual
+position 152.500000 118.000000  orientation 0.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  5.700000  5.700000  orientation 0.00
+drill  3.200000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  H7
+
+$MODULE H8
+footprint MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad
+attribut virtual
+position 182.500000 118.000000  orientation 0.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  5.700000  5.700000  orientation 0.00
+drill  3.200000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  H8
 
 $MODULE J1
 footprint Connector_USB:USB_C_Receptacle_GCT_USB4110
@@ -1108,13 +1212,13 @@ shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "MP"
 Shape Rect Layer both
-position  7.500000  8.100000  size  3.200000  2.000000  orientation 0.00
+position  7.500000 -3.100000  size  3.200000  2.000000  orientation 0.00
 drill  2.800000
 shape_offset  0.000000  0.000000
 $EndPAD
 $PAD "MP"
 Shape Rect Layer both
-position  7.500000 -3.100000  size  3.200000  2.000000  orientation 0.00
+position  7.500000  8.100000  size  3.200000  2.000000  orientation 0.00
 drill  2.800000
 shape_offset  0.000000  0.000000
 $EndPAD
