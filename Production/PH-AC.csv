@@ -1,12 +1,12 @@
 "编号";"位号";"封装";"数量";"名称";"供应商编号";
-1;"U2";"10-WFDFN-EP_RIT";1;"RT6150B-33GQW";;;
-2;"SW4,SW7,SW5,SW6";"SW_Hotswap_Kailh_MX_1.50u";4;"SW_Push";;;
-3;"SW9";"SW_Hotswap_Kailh_MX_1.00u";1;"SW_Push";;;
-4;"SW8,SW10";"SW_Hotswap_Kailh_MX_2.75u";2;"SW_Push";;;
-5;"SW3,SW2";"RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm";2;"RotaryEncoder_Switch_MP";;;
-6;"C11,C9,C10,C14,L1";"C_0402_1005Metric";5;"2u2";;;
-7;"R5";"R_0402_1005Metric";1;"5K6";;;
-8;"C7,C6,C3,C15,C2,C4,C5,C1,C8";"C_0402_1005Metric";9;"100n";;;
+1;"SW4,SW7,SW5,SW6";"SW_Hotswap_Kailh_MX_1.50u";4;"SW_Push";;;
+2;"SW9";"SW_Hotswap_Kailh_MX_1.00u";1;"SW_Push";;;
+3;"SW8,SW10";"SW_Hotswap_Kailh_MX_2.75u";2;"SW_Push";;;
+4;"SW3,SW2";"RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm";2;"RotaryEncoder_Switch_MP";;;
+5;"C11,C9,C10,C14,L1";"C_0402_1005Metric";5;"2u2";;;
+6;"R5";"R_0402_1005Metric";1;"5K6";;;
+7;"C7,C6,C3,C15,C2,C4,C5,C1,C8";"C_0402_1005Metric";9;"100n";;;
+8;"U2";"10-WFDFN-EP_RIT";1;"RT6150B-33GQW";;;
 9;"R12,R9";"R_0402_1005Metric";2;"1K";;;
 10;"D7,D8,D6,D3,D4,D9,D5";"D_0402_1005Metric";7;"D";;;
 11;"R11,R10";"R_0402_1005Metric";2;"R";;;
@@ -28,4 +28,4 @@
 27;"C18,C17";"C_0402_1005Metric";2;"15p";;;
 28;"J2";"PinHeader_1x03_P1.00mm_Vertical";1;"Conn_01x03";;;
 29;"R1";"R_0402_1005Metric";1;"1R";;;
-30;"D1";"D_0402_1005Metric";1;"D_Schottky";;;
+30;"D1";"D_SOD-123F";1;"D_Schottky";;;

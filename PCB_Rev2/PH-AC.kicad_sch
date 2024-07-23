@@ -12979,7 +12979,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 104.14 200.66 0)
 			(effects
 				(font
