@@ -12971,7 +12971,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "MBR120VLSFT1G"
 			(at 104.4575 196.85 0)
 			(effects
 				(font
