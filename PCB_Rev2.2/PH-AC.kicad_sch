@@ -6523,7 +6523,7 @@
 				)
 			)
 		)
-		(property "Value" "56K"
+		(property "Value" "5K1"
 			(at 81.28 205.74 90)
 			(effects
 				(font
@@ -6786,7 +6786,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "20p"
 			(at 177.8 76.1999 0)
 			(effects
 				(font
@@ -7376,7 +7376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 270.51 137.668 90)
 			(effects
 				(font
@@ -7669,7 +7669,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "20p"
 			(at 160.02 76.1999 0)
 			(effects
 				(font
@@ -9088,7 +9088,7 @@
 				)
 			)
 		)
-		(property "Value" "56K"
+		(property "Value" "5K1"
 			(at 81.28 215.9 90)
 			(effects
 				(font
@@ -10682,7 +10682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 270.51 147.828 90)
 			(effects
 				(font
