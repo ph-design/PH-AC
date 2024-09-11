@@ -43,16 +43,27 @@
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_size_h": 0.7,
+        "silk_text_size_v": 0.7,
+        "silk_text_thickness": 0.175,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "hole_clearance|164450000|59930000|c333fc3e-d89b-4463-93c5-fa09de682d4d|26cd9d17-b074-4cc3-af11-62a38d431717",
+        "hole_clearance|164450000|59930000|c333fc3e-d89b-4463-93c5-fa09de682d4d|5c1a2d30-b8db-48b3-b3b2-ce2d9cc0b30a",
+        "hole_clearance|170550000|59930000|0d76eb41-339f-4821-92b1-46f1003acbbc|035a9c99-0a92-4adb-89e2-8b707773e8eb",
+        "hole_clearance|170550000|59930000|0d76eb41-339f-4821-92b1-46f1003acbbc|0a1ae6b5-5f80-438c-9d3f-49b7762cdc42"
+      ],
       "meta": {
         "version": 2
       },
@@ -171,7 +182,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -198,7 +211,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -412,14 +430,14 @@
       "missing_unit": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
-      "no_connect_connected": "warning",
+      "no_connect_connected": "error",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
-      "similar_labels": "warning",
-      "simulation_model_issue": "ignore",
+      "similar_labels": "error",
+      "simulation_model_issue": "warning",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -587,6 +605,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -604,8 +630,8 @@
       "根目录"
     ],
     [
-      "e971f04b-d93f-4178-ab42-7336a17d4b37",
-      "Matrix"
+      "18b7c23a-94ec-414a-80c8-466e72838977",
+      "Switch&Encoder"
     ]
   ],
   "text_variables": {}

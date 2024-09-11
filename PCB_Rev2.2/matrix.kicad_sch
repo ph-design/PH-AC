@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "f135d96c-93da-4050-a655-099164b22b48")
 	(paper "A4")
+	(title_block
+		(title "PH-AC  --Arcade controller for Genshin-impact-like games.")
+		(date "2024-07-19 => 2024-09-11")
+		(rev "Rev2.2")
+		(company "Team PHDesign")
+	)
 	(lib_symbols
 		(symbol "Device:RotaryEncoder_Switch_MP"
 			(pin_names
@@ -651,36 +657,36 @@
 		)
 	)
 	(junction
-		(at 30.48 64.77)
+		(at 95.25 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb07fcf0-7f3a-44c3-b0ae-9cac2362afeb")
 	)
 	(junction
-		(at 124.46 54.61)
+		(at 189.23 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7e871f1-04a3-4d0d-9cc5-e27d1d112eeb")
 	)
 	(no_connect
-		(at 97.79 57.15)
+		(at 162.56 76.2)
 		(uuid "349149a4-79a8-4f6d-a1d5-d7655a48ee83")
 	)
 	(no_connect
-		(at 97.79 52.07)
+		(at 162.56 71.12)
 		(uuid "bb1417f5-20f0-4f01-963a-7e5c22c4642f")
 	)
 	(no_connect
-		(at 57.15 57.15)
+		(at 121.92 76.2)
 		(uuid "cce20ec9-af52-4721-b6fb-095ec990d30b")
 	)
 	(no_connect
-		(at 57.15 52.07)
+		(at 121.92 71.12)
 		(uuid "f114ecaa-2799-4b04-9866-404c81f8bdca")
 	)
 	(wire
 		(pts
-			(xy 95.25 85.09) (xy 95.25 87.63)
+			(xy 160.02 104.14) (xy 160.02 106.68)
 		)
 		(stroke
 			(width 0)
@@ -690,7 +696,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 104.14) (xy 74.93 106.68)
+			(xy 139.7 123.19) (xy 139.7 125.73)
 		)
 		(stroke
 			(width 0)
@@ -700,7 +706,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 46.99) (xy 124.46 46.99)
+			(xy 170.18 66.04) (xy 189.23 66.04)
 		)
 		(stroke
 			(width 0)
@@ -710,7 +716,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 54.61) (xy 124.46 54.61)
+			(xy 177.8 73.66) (xy 189.23 73.66)
 		)
 		(stroke
 			(width 0)
@@ -720,7 +726,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 46.99) (xy 124.46 54.61)
+			(xy 189.23 66.04) (xy 189.23 73.66)
 		)
 		(stroke
 			(width 0)
@@ -730,7 +736,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 54.61) (xy 41.91 54.61)
+			(xy 95.25 73.66) (xy 106.68 73.66)
 		)
 		(stroke
 			(width 0)
@@ -740,7 +746,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 85.09) (xy 54.61 87.63)
+			(xy 119.38 104.14) (xy 119.38 106.68)
 		)
 		(stroke
 			(width 0)
@@ -750,7 +756,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 104.14) (xy 95.25 106.68)
+			(xy 160.02 123.19) (xy 160.02 125.73)
 		)
 		(stroke
 			(width 0)
@@ -760,7 +766,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 64.77) (xy 30.48 54.61)
+			(xy 95.25 83.82) (xy 95.25 73.66)
 		)
 		(stroke
 			(width 0)
@@ -770,7 +776,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 85.09) (xy 74.93 87.63)
+			(xy 139.7 104.14) (xy 139.7 106.68)
 		)
 		(stroke
 			(width 0)
@@ -780,7 +786,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 54.61) (xy 124.46 57.15)
+			(xy 189.23 73.66) (xy 189.23 76.2)
 		)
 		(stroke
 			(width 0)
@@ -790,7 +796,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 62.23) (xy 49.53 64.77)
+			(xy 114.3 81.28) (xy 114.3 83.82)
 		)
 		(stroke
 			(width 0)
@@ -800,7 +806,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 85.09) (xy 115.57 87.63)
+			(xy 180.34 104.14) (xy 180.34 106.68)
 		)
 		(stroke
 			(width 0)
@@ -810,7 +816,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 64.77) (xy 49.53 64.77)
+			(xy 95.25 83.82) (xy 114.3 83.82)
 		)
 		(stroke
 			(width 0)
@@ -820,7 +826,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 64.77) (xy 30.48 67.31)
+			(xy 95.25 83.82) (xy 95.25 86.36)
 		)
 		(stroke
 			(width 0)
@@ -830,7 +836,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 104.14) (xy 54.61 106.68)
+			(xy 119.38 123.19) (xy 119.38 125.73)
 		)
 		(stroke
 			(width 0)
@@ -840,7 +846,7 @@
 	)
 	(global_label "ENC2A"
 		(shape input)
-		(at 41.91 52.07 180)
+		(at 106.68 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -850,7 +856,7 @@
 		)
 		(uuid "244a730b-ed1d-487e-aa59-f93cd1d847fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.8772 52.07 0)
+			(at 97.6472 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -862,7 +868,7 @@
 	)
 	(global_label "BT2"
 		(shape input)
-		(at 85.09 85.09 180)
+		(at 149.86 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -872,7 +878,7 @@
 		)
 		(uuid "32ea06e4-a4fd-4d7e-b85e-33bc1012240f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.6577 85.09 0)
+			(at 143.4277 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -884,7 +890,7 @@
 	)
 	(global_label "BT0"
 		(shape input)
-		(at 44.45 85.09 180)
+		(at 109.22 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -894,7 +900,7 @@
 		)
 		(uuid "70f008d2-5f9b-4780-b06d-2b905b4d8d96")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.0177 85.09 0)
+			(at 102.7877 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -906,7 +912,7 @@
 	)
 	(global_label "BT4"
 		(shape input)
-		(at 44.45 104.14 180)
+		(at 109.22 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -916,7 +922,7 @@
 		)
 		(uuid "857c1de6-f520-411d-851c-e2802744417b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.0177 104.14 0)
+			(at 102.7877 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -928,7 +934,7 @@
 	)
 	(global_label "ENC1A"
 		(shape input)
-		(at 113.03 57.15 0)
+		(at 177.8 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -938,7 +944,7 @@
 		)
 		(uuid "9861be61-3b55-45a6-a103-92298d4f61cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.0628 57.15 0)
+			(at 186.8328 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -950,7 +956,7 @@
 	)
 	(global_label "ENC2B"
 		(shape input)
-		(at 41.91 57.15 180)
+		(at 106.68 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -960,7 +966,7 @@
 		)
 		(uuid "a0e2ec31-3127-421d-a8d5-1e4573dc6c8b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.6958 57.15 0)
+			(at 97.4658 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -972,7 +978,7 @@
 	)
 	(global_label "BT6"
 		(shape input)
-		(at 85.09 104.14 180)
+		(at 149.86 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -982,7 +988,7 @@
 		)
 		(uuid "a15aca1b-83c8-4afb-a30d-8e69b372faae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.6577 104.14 0)
+			(at 143.4277 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -994,7 +1000,7 @@
 	)
 	(global_label "BT5"
 		(shape input)
-		(at 64.77 104.14 180)
+		(at 129.54 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1004,7 +1010,7 @@
 		)
 		(uuid "a876a3e7-aab7-4a00-8160-7311dc28174a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.3377 104.14 0)
+			(at 123.1077 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1016,7 +1022,7 @@
 	)
 	(global_label "BT1"
 		(shape input)
-		(at 64.77 85.09 180)
+		(at 129.54 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1026,7 +1032,7 @@
 		)
 		(uuid "cdfd770f-3ea6-4181-b63c-d957b926ca4d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.3377 85.09 0)
+			(at 123.1077 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1038,7 +1044,7 @@
 	)
 	(global_label "BT3"
 		(shape input)
-		(at 105.41 85.09 180)
+		(at 170.18 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1048,7 +1054,7 @@
 		)
 		(uuid "e5e57e78-b69e-4814-b6ef-32e0131eadcb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.9777 85.09 0)
+			(at 163.7477 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1060,7 +1066,7 @@
 	)
 	(global_label "ENC1B"
 		(shape input)
-		(at 113.03 52.07 0)
+		(at 177.8 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1070,7 +1076,7 @@
 		)
 		(uuid "ff7bfb41-324c-47b5-b1ea-4733b6b80f77")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.2442 52.07 0)
+			(at 187.0142 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1082,7 +1088,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 87.63 0)
+		(at 160.02 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1091,7 +1097,7 @@
 		(fields_autoplaced yes)
 		(uuid "058304e4-fa69-490b-b48c-0c2aa0d142fd")
 		(property "Reference" "#PWR039"
-			(at 95.25 93.98 0)
+			(at 160.02 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1100,7 +1106,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 92.71 0)
+			(at 160.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1108,7 +1114,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 87.63 0)
+			(at 160.02 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1117,7 +1123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 87.63 0)
+			(at 160.02 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1126,7 +1132,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 87.63 0)
+			(at 160.02 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1139,7 +1145,7 @@
 		)
 		(instances
 			(project ""
-				(path "/901590cc-6a38-407a-866f-346dd24c26e1/e971f04b-d93f-4178-ab42-7336a17d4b37"
+				(path "/901590cc-6a38-407a-866f-346dd24c26e1/18b7c23a-94ec-414a-80c8-466e72838977"
 					(reference "#PWR039")
 					(unit 1)
 				)
@@ -1148,7 +1154,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 106.68 0)
+		(at 160.02 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1157,7 +1163,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d458af3-564f-41f7-9072-19116f58948d")
 		(property "Reference" "#PWR043"
-			(at 95.25 113.03 0)
+			(at 160.02 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1166,7 +1172,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 111.76 0)
+			(at 160.02 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1174,7 +1180,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 106.68 0)
+			(at 160.02 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1183,7 +1189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 106.68 0)
+			(at 160.02 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1192,7 +1198,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 106.68 0)
+			(at 160.02 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1205,7 +1211,7 @@
 		)
 		(instances
 			(project ""
-				(path "/901590cc-6a38-407a-866f-346dd24c26e1/e971f04b-d93f-4178-ab42-7336a17d4b37"
+				(path "/901590cc-6a38-407a-866f-346dd24c26e1/18b7c23a-94ec-414a-80c8-466e72838977"
 					(reference "#PWR043")
 					(unit 1)
 				)
@@ -1214,7 +1220,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 57.15 0)
+		(at 189.23 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1223,7 +1229,7 @@
 		(fields_autoplaced yes)
 		(uuid "11a4c61a-af3a-4000-af2f-3cb5daf2d884")
 		(property "Reference" "#PWR035"
-			(at 124.46 63.5 0)
+			(at 189.23 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1232,7 +1238,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 62.23 0)
+			(at 189.23 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1240,7 +1246,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 57.15 0)
+			(at 189.23 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1249,7 +1255,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 57.15 0)
+			(at 189.23 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1258,7 +1264,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 57.15 0)
+			(at 189.23 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1271,7 +1277,7 @@
 		)
 		(instances
 			(project ""
-				(path "/901590cc-6a38-407a-866f-346dd24c26e1/e971f04b-d93f-4178-ab42-7336a17d4b37"
+				(path "/901590cc-6a38-407a-866f-346dd24c26e1/18b7c23a-94ec-414a-80c8-466e72838977"
 					(reference "#PWR035")
 					(unit 1)
 				)
@@ -1280,7 +1286,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 49.53 85.09 0)
+		(at 114.3 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1289,7 +1295,7 @@
 		(fields_autoplaced yes)
 		(uuid "24848c1f-9720-4114-b76a-5a06bb1815e5")
 		(property "Reference" "SW4"
-			(at 49.53 77.47 0)
+			(at 114.3 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1297,7 +1303,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 49.53 80.01 0)
+			(at 114.3 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1305,7 +1311,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.50u"
-			(at 49.53 80.01 0)
+			(at 114.3 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1314,7 +1320,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 80.01 0)
+			(at 114.3 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1323,7 +1329,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 49.53 85.09 0)
+			(at 114.3 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1332,7 +1338,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 49.53 85.09 0)
+			(at 114.3 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1341,7 +1347,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 49.53 85.09 0)
+			(at 114.3 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1357,8 +1363,8 @@
 		)
 		(instances
 			(project ""
-				(path "/901590cc-6a38-407a-866f-346dd24c26e1/e971f04b-d93f-4178-ab42-7336a17d4b37"
-					(reference "SW4")
+				(path "/901590cc-6a38-407a-866f-346dd24c26e1/18b7c23a-94ec-414a-80c8-466e72838977"
+					(reference "BT-A1")
 					(unit 1)
 				)
 			)
@@ -1366,7 +1372,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 87.63 0)
+		(at 180.34 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1375,7 +1381,7 @@
 		(fields_autoplaced yes)
 		(uuid "389a6288-68c0-4fb6-ac21-5eb367305560")
 		(property "Reference" "#PWR040"
-			(at 115.57 93.98 0)
+			(at 180.34 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1384,7 +1390,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 92.71 0)
+			(at 180.34 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1392,7 +1398,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 87.63 0)
+			(at 180.34 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1401,7 +1407,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 87.63 0)
+			(at 180.34 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1410,7 +1416,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 87.63 0)
+			(at 180.34 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1423,7 +1429,7 @@
 		)
 		(instances
 			(project ""
-				(path "/901590cc-6a38-407a-866f-346dd24c26e1/e971f04b-d93f-4178-ab42-7336a17d4b37"
+				(path "/901590cc-6a38-407a-866f-346dd24c26e1/18b7c23a-94ec-414a-80c8-466e72838977"
 					(reference "#PWR040")
 					(unit 1)
 				)
@@ -1432,7 +1438,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 69.85 85.09 0)
+		(at 134.62 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1441,7 +1447,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d57a6e8-69bf-4efa-bf69-63b542436c05")
 		(property "Reference" "SW5"
-			(at 69.85 77.47 0)
+			(at 134.62 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1449,7 +1455,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 69.85 80.01 0)
+			(at 134.62 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1457,7 +1463,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.50u"
-			(at 69.85 80.01 0)
+			(at 134.62 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1466,7 +1472,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 80.01 0)
+			(at 134.62 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1475,7 +1481,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 69.85 85.09 0)
+			(at 134.62 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1484,7 +1490,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 69.85 85.09 0)
+			(at 134.62 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1493,7 +1499,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 69.85 85.09 0)
+			(at 134.62 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1509,8 +1515,8 @@
 		)
 		(instances
 			(project "PH-AC"
-				(path "/901590cc-6a38-407a-866f-346dd24c26e1/e971f04b-d93f-4178-ab42-7336a17d4b37"
-					(reference "SW5")
+				(path "/901590cc-6a38-407a-866f-346dd24c26e1/18b7c23a-94ec-414a-80c8-466e72838977"
+					(reference "BT-B1")
 					(unit 1)
 				)
 			)
@@ -1518,7 +1524,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 106.68 0)
+		(at 119.38 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1527,7 +1533,7 @@
 		(fields_autoplaced yes)
 		(uuid "569cf693-fb54-4703-880c-ed5a89585440")
 		(property "Reference" "#PWR041"
-			(at 54.61 113.03 0)
+			(at 119.38 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1536,7 +1542,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 111.76 0)
+			(at 119.38 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1544,7 +1550,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 106.68 0)
+			(at 119.38 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1553,7 +1559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 106.68 0)
+			(at 119.38 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1562,7 +1568,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 106.68 0)
+			(at 119.38 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1575,7 +1581,7 @@
 		)
 		(instances
 			(project ""
-				(path "/901590cc-6a38-407a-866f-346dd24c26e1/e971f04b-d93f-4178-ab42-7336a17d4b37"
+				(path "/901590cc-6a38-407a-866f-346dd24c26e1/18b7c23a-94ec-414a-80c8-466e72838977"
 					(reference "#PWR041")
 					(unit 1)
 				)
@@ -1584,7 +1590,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 87.63 0)
+		(at 139.7 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1593,7 +1599,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ad2a4cf-a5c9-47db-8206-d868100762fe")
 		(property "Reference" "#PWR038"
-			(at 74.93 93.98 0)
+			(at 139.7 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1602,7 +1608,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 92.71 0)
+			(at 139.7 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1610,7 +1616,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 87.63 0)
+			(at 139.7 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1619,7 +1625,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 87.63 0)
+			(at 139.7 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1628,7 +1634,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 87.63 0)
+			(at 139.7 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1641,7 +1647,7 @@
 		)
 		(instances
 			(project ""
-				(path "/901590cc-6a38-407a-866f-346dd24c26e1/e971f04b-d93f-4178-ab42-7336a17d4b37"
+				(path "/901590cc-6a38-407a-866f-346dd24c26e1/18b7c23a-94ec-414a-80c8-466e72838977"
 					(reference "#PWR038")
 					(unit 1)
 				)
@@ -1650,7 +1656,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 90.17 104.14 0)
+		(at 154.94 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1659,7 +1665,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f1ef6be-8383-430a-a2a7-54e96dada48f")
 		(property "Reference" "SW10"
-			(at 90.17 96.52 0)
+			(at 154.94 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1667,7 +1673,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 90.17 99.06 0)
+			(at 154.94 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,7 +1681,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.25u"
-			(at 90.17 99.06 0)
+			(at 154.94 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1684,7 +1690,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 99.06 0)
+			(at 154.94 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1693,7 +1699,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 90.17 104.14 0)
+			(at 154.94 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1702,7 +1708,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 90.17 104.14 0)
+			(at 154.94 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1711,7 +1717,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 90.17 104.14 0)
+			(at 154.94 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1727,8 +1733,8 @@
 		)
 		(instances
 			(project "PH-AC"
-				(path "/901590cc-6a38-407a-866f-346dd24c26e1/e971f04b-d93f-4178-ab42-7336a17d4b37"
-					(reference "SW10")
+				(path "/901590cc-6a38-407a-866f-346dd24c26e1/18b7c23a-94ec-414a-80c8-466e72838977"
+					(reference "FX-R1")
 					(unit 1)
 				)
 			)
@@ -1736,7 +1742,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 49.53 104.14 0)
+		(at 114.3 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1745,7 +1751,7 @@
 		(fields_autoplaced yes)
 		(uuid "6889b7a7-e9d6-490f-8712-d68e0364b18c")
 		(property "Reference" "SW8"
-			(at 49.53 96.52 0)
+			(at 114.3 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1753,7 +1759,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 49.53 99.06 0)
+			(at 114.3 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1761,7 +1767,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.25u"
-			(at 49.53 99.06 0)
+			(at 114.3 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1770,7 +1776,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 99.06 0)
+			(at 114.3 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1779,7 +1785,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 49.53 104.14 0)
+			(at 114.3 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1788,7 +1794,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 49.53 104.14 0)
+			(at 114.3 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1797,7 +1803,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 49.53 104.14 0)
+			(at 114.3 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1813,8 +1819,8 @@
 		)
 		(instances
 			(project "PH-AC"
-				(path "/901590cc-6a38-407a-866f-346dd24c26e1/e971f04b-d93f-4178-ab42-7336a17d4b37"
-					(reference "SW8")
+				(path "/901590cc-6a38-407a-866f-346dd24c26e1/18b7c23a-94ec-414a-80c8-466e72838977"
+					(reference "FX-L1")
 					(unit 1)
 				)
 			)
@@ -1822,7 +1828,7 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder_Switch_MP")
-		(at 105.41 54.61 180)
+		(at 170.18 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1831,7 +1837,7 @@
 		(fields_autoplaced yes)
 		(uuid "69b94c84-9188-4bcc-bf8f-15be395c2546")
 		(property "Reference" "SW3"
-			(at 105.41 62.23 0)
+			(at 170.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1839,7 +1845,7 @@
 			)
 		)
 		(property "Value" "RotaryEncoder_Switch_MP"
-			(at 105.41 64.77 0)
+			(at 170.18 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1847,7 +1853,7 @@
 			)
 		)
 		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
-			(at 109.22 58.674 0)
+			(at 173.99 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1856,7 +1862,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 41.91 0)
+			(at 170.18 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1865,7 +1871,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
-			(at 105.41 39.37 0)
+			(at 170.18 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1874,7 +1880,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 105.41 54.61 0)
+			(at 170.18 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1883,7 +1889,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 105.41 54.61 0)
+			(at 170.18 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1911,8 +1917,8 @@
 		)
 		(instances
 			(project ""
-				(path "/901590cc-6a38-407a-866f-346dd24c26e1/e971f04b-d93f-4178-ab42-7336a17d4b37"
-					(reference "SW3")
+				(path "/901590cc-6a38-407a-866f-346dd24c26e1/18b7c23a-94ec-414a-80c8-466e72838977"
+					(reference "VOR-R1")
 					(unit 1)
 				)
 			)
@@ -1920,7 +1926,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 87.63 0)
+		(at 119.38 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1929,7 +1935,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e54111a-3652-442c-997b-0bc5e4eb09f5")
 		(property "Reference" "#PWR037"
-			(at 54.61 93.98 0)
+			(at 119.38 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1938,7 +1944,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 92.71 0)
+			(at 119.38 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1946,7 +1952,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 87.63 0)
+			(at 119.38 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1955,7 +1961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 87.63 0)
+			(at 119.38 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1964,7 +1970,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 87.63 0)
+			(at 119.38 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1977,7 +1983,7 @@
 		)
 		(instances
 			(project ""
-				(path "/901590cc-6a38-407a-866f-346dd24c26e1/e971f04b-d93f-4178-ab42-7336a17d4b37"
+				(path "/901590cc-6a38-407a-866f-346dd24c26e1/18b7c23a-94ec-414a-80c8-466e72838977"
 					(reference "#PWR037")
 					(unit 1)
 				)
@@ -1986,7 +1992,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 90.17 85.09 0)
+		(at 154.94 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1995,7 +2001,7 @@
 		(fields_autoplaced yes)
 		(uuid "76b5a988-017e-4d26-be7c-b24d948dfa81")
 		(property "Reference" "SW6"
-			(at 90.17 77.47 0)
+			(at 154.94 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2003,7 +2009,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 90.17 80.01 0)
+			(at 154.94 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2011,7 +2017,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.50u"
-			(at 90.17 80.01 0)
+			(at 154.94 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,7 +2026,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 80.01 0)
+			(at 154.94 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2029,7 +2035,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 90.17 85.09 0)
+			(at 154.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2038,7 +2044,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 90.17 85.09 0)
+			(at 154.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2047,7 +2053,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 90.17 85.09 0)
+			(at 154.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2063,8 +2069,8 @@
 		)
 		(instances
 			(project "PH-AC"
-				(path "/901590cc-6a38-407a-866f-346dd24c26e1/e971f04b-d93f-4178-ab42-7336a17d4b37"
-					(reference "SW6")
+				(path "/901590cc-6a38-407a-866f-346dd24c26e1/18b7c23a-94ec-414a-80c8-466e72838977"
+					(reference "BT-C1")
 					(unit 1)
 				)
 			)
@@ -2072,7 +2078,7 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder_Switch_MP")
-		(at 49.53 54.61 0)
+		(at 114.3 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2081,7 +2087,7 @@
 		(fields_autoplaced yes)
 		(uuid "9503331e-ba6f-4352-b9f8-7ce7d9f45f39")
 		(property "Reference" "SW2"
-			(at 49.53 44.45 0)
+			(at 114.3 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2089,7 +2095,7 @@
 			)
 		)
 		(property "Value" "RotaryEncoder_Switch_MP"
-			(at 49.53 46.99 0)
+			(at 114.3 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2097,7 +2103,7 @@
 			)
 		)
 		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
-			(at 45.72 50.546 0)
+			(at 110.49 69.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2106,7 +2112,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 67.31 0)
+			(at 114.3 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2115,7 +2121,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
-			(at 49.53 69.85 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2124,7 +2130,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 49.53 54.61 0)
+			(at 114.3 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,7 +2139,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 49.53 54.61 0)
+			(at 114.3 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2161,8 +2167,8 @@
 		)
 		(instances
 			(project ""
-				(path "/901590cc-6a38-407a-866f-346dd24c26e1/e971f04b-d93f-4178-ab42-7336a17d4b37"
-					(reference "SW2")
+				(path "/901590cc-6a38-407a-866f-346dd24c26e1/18b7c23a-94ec-414a-80c8-466e72838977"
+					(reference "VOR-L1")
 					(unit 1)
 				)
 			)
@@ -2170,7 +2176,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 67.31 0)
+		(at 95.25 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2179,7 +2185,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2d02583-b316-481c-8982-706c5ffa5acc")
 		(property "Reference" "#PWR034"
-			(at 30.48 73.66 0)
+			(at 95.25 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2188,7 +2194,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 72.39 0)
+			(at 95.25 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2196,7 +2202,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 67.31 0)
+			(at 95.25 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2205,7 +2211,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 67.31 0)
+			(at 95.25 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2214,7 +2220,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 67.31 0)
+			(at 95.25 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2227,7 +2233,7 @@
 		)
 		(instances
 			(project ""
-				(path "/901590cc-6a38-407a-866f-346dd24c26e1/e971f04b-d93f-4178-ab42-7336a17d4b37"
+				(path "/901590cc-6a38-407a-866f-346dd24c26e1/18b7c23a-94ec-414a-80c8-466e72838977"
 					(reference "#PWR034")
 					(unit 1)
 				)
@@ -2236,7 +2242,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 69.85 104.14 0)
+		(at 134.62 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2245,7 +2251,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1b5fcd7-353f-42ad-9bf3-3d396ea1bd93")
 		(property "Reference" "SW9"
-			(at 69.85 96.52 0)
+			(at 134.62 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2253,7 +2259,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 69.85 99.06 0)
+			(at 134.62 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2261,7 +2267,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 69.85 99.06 0)
+			(at 134.62 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2270,7 +2276,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 99.06 0)
+			(at 134.62 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2279,7 +2285,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 69.85 104.14 0)
+			(at 134.62 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2288,7 +2294,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 69.85 104.14 0)
+			(at 134.62 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2297,7 +2303,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 69.85 104.14 0)
+			(at 134.62 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2313,7 +2319,7 @@
 		)
 		(instances
 			(project "PH-AC"
-				(path "/901590cc-6a38-407a-866f-346dd24c26e1/e971f04b-d93f-4178-ab42-7336a17d4b37"
+				(path "/901590cc-6a38-407a-866f-346dd24c26e1/18b7c23a-94ec-414a-80c8-466e72838977"
 					(reference "SW9")
 					(unit 1)
 				)
@@ -2322,7 +2328,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 110.49 85.09 0)
+		(at 175.26 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2331,7 +2337,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb68048d-19c8-497d-b12e-a52073ef5e4e")
 		(property "Reference" "SW7"
-			(at 110.49 77.47 0)
+			(at 175.26 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2339,7 +2345,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 110.49 80.01 0)
+			(at 175.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2347,7 +2353,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.50u"
-			(at 110.49 80.01 0)
+			(at 175.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2356,7 +2362,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 80.01 0)
+			(at 175.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2365,7 +2371,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 110.49 85.09 0)
+			(at 175.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2374,7 +2380,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 110.49 85.09 0)
+			(at 175.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2383,7 +2389,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 110.49 85.09 0)
+			(at 175.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2399,8 +2405,8 @@
 		)
 		(instances
 			(project "PH-AC"
-				(path "/901590cc-6a38-407a-866f-346dd24c26e1/e971f04b-d93f-4178-ab42-7336a17d4b37"
-					(reference "SW7")
+				(path "/901590cc-6a38-407a-866f-346dd24c26e1/18b7c23a-94ec-414a-80c8-466e72838977"
+					(reference "BT-D1")
 					(unit 1)
 				)
 			)
@@ -2408,7 +2414,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 106.68 0)
+		(at 139.7 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2417,7 +2423,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2f3fd55-4689-4e6f-b914-d53bbf62e020")
 		(property "Reference" "#PWR042"
-			(at 74.93 113.03 0)
+			(at 139.7 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2426,7 +2432,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 111.76 0)
+			(at 139.7 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +2440,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 106.68 0)
+			(at 139.7 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,7 +2449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 106.68 0)
+			(at 139.7 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,7 +2458,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 106.68 0)
+			(at 139.7 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2465,7 +2471,7 @@
 		)
 		(instances
 			(project ""
-				(path "/901590cc-6a38-407a-866f-346dd24c26e1/e971f04b-d93f-4178-ab42-7336a17d4b37"
+				(path "/901590cc-6a38-407a-866f-346dd24c26e1/18b7c23a-94ec-414a-80c8-466e72838977"
 					(reference "#PWR042")
 					(unit 1)
 				)
