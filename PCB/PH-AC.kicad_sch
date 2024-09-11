@@ -5,7 +5,7 @@
 	(uuid "901590cc-6a38-407a-866f-346dd24c26e1")
 	(paper "A3")
 	(title_block
-		(title "PH-AC  --Arcade controller for Genshin-impact-like games.")
+		(title "PH-AC  --An arcade controller for Genshin-like games.")
 		(date "2024-07-19 => 2024-09-11")
 		(rev "Rev2.2")
 		(company "Team PHDesign")

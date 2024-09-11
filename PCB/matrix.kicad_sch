@@ -5,7 +5,7 @@
 	(uuid "f135d96c-93da-4050-a655-099164b22b48")
 	(paper "A4")
 	(title_block
-		(title "PH-AC  --Arcade controller for Genshin-impact-like games.")
+		(title "PH-AC  --An arcade controller for Genshin-like games.")
 		(date "2024-07-19 => 2024-09-11")
 		(rev "Rev2.2")
 		(company "Team PHDesign")
@@ -1294,7 +1294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24848c1f-9720-4114-b76a-5a06bb1815e5")
-		(property "Reference" "SW4"
+		(property "Reference" "BT-A1"
 			(at 114.3 96.52 0)
 			(effects
 				(font
@@ -1446,7 +1446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d57a6e8-69bf-4efa-bf69-63b542436c05")
-		(property "Reference" "SW5"
+		(property "Reference" "BT-B1"
 			(at 134.62 96.52 0)
 			(effects
 				(font
@@ -1664,7 +1664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f1ef6be-8383-430a-a2a7-54e96dada48f")
-		(property "Reference" "SW10"
+		(property "Reference" "FX-R1"
 			(at 154.94 115.57 0)
 			(effects
 				(font
@@ -1750,7 +1750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6889b7a7-e9d6-490f-8712-d68e0364b18c")
-		(property "Reference" "SW8"
+		(property "Reference" "FX-L1"
 			(at 114.3 115.57 0)
 			(effects
 				(font
@@ -1836,7 +1836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69b94c84-9188-4bcc-bf8f-15be395c2546")
-		(property "Reference" "SW3"
+		(property "Reference" "VOR-R1"
 			(at 170.18 81.28 0)
 			(effects
 				(font
@@ -2000,7 +2000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76b5a988-017e-4d26-be7c-b24d948dfa81")
-		(property "Reference" "SW6"
+		(property "Reference" "BT-C1"
 			(at 154.94 96.52 0)
 			(effects
 				(font
@@ -2086,7 +2086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9503331e-ba6f-4352-b9f8-7ce7d9f45f39")
-		(property "Reference" "SW2"
+		(property "Reference" "VOR-L1"
 			(at 114.3 63.5 0)
 			(effects
 				(font
@@ -2336,7 +2336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb68048d-19c8-497d-b12e-a52073ef5e4e")
-		(property "Reference" "SW7"
+		(property "Reference" "BT-D1"
 			(at 175.26 96.52 0)
 			(effects
 				(font
