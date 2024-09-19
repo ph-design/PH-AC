@@ -487,7 +487,7 @@
       "plot": "../Production/",
       "pos_files": "../Production/",
       "specctra_dsn": "",
-      "step": "../PCB_Model_Rev2.1/PH-AC.step",
+      "step": "../PCB_Model/PH-AC.step",
       "svg": "",
       "vrml": ""
     },

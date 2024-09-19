@@ -23680,7 +23680,7 @@
 		(uuid "cd022619-abec-424f-8ffd-55cc59b3d36e")
 	)
 	(gr_text "Team PHDesign"
-		(at 137.1 68 0)
+		(at 132 68 0)
 		(layer "B.SilkS")
 		(uuid "14d77686-3640-4889-991f-819702a796c2")
 		(effects
@@ -23689,11 +23689,11 @@
 				(thickness 0.175)
 				(bold yes)
 			)
-			(justify left bottom mirror)
+			(justify bottom mirror)
 		)
 	)
 	(gr_text "--An arcade controller for Genshin-like games."
-		(at 136.425 57.7 0)
+		(at 123.5 57.7 0)
 		(layer "B.SilkS")
 		(uuid "2e61a164-473b-4aed-aa06-aac77c83bf78")
 		(effects
@@ -23702,11 +23702,11 @@
 				(thickness 0.15)
 				(bold yes)
 			)
-			(justify left bottom mirror)
+			(justify bottom mirror)
 		)
 	)
 	(gr_text "PH-AC"
-		(at 128.975 56.175 0)
+		(at 123.5 56.2 0)
 		(layer "B.SilkS")
 		(uuid "8b097905-5a91-4da6-9fe3-e69850a74a96")
 		(effects
@@ -23715,11 +23715,11 @@
 				(thickness 0.4)
 				(bold yes)
 			)
-			(justify left bottom mirror)
+			(justify bottom mirror)
 		)
 	)
 	(gr_text "noname_C"
-		(at 136.975 71.325 0)
+		(at 137 71.325 0)
 		(layer "B.SilkS")
 		(uuid "dc2ce809-3177-4aca-a390-e0156949c1cb")
 		(effects
@@ -23732,7 +23732,7 @@
 		)
 	)
 	(gr_text "MichaelAltmann"
-		(at 137.025 70.05 0)
+		(at 137 70.05 0)
 		(layer "B.SilkS")
 		(uuid "e17a8a28-acee-490c-ad94-4613986986aa")
 		(effects
@@ -23745,7 +23745,7 @@
 		)
 	)
 	(gr_text "Official Website"
-		(at 121.05 68.05 0)
+		(at 115 68.05 0)
 		(layer "B.SilkS")
 		(uuid "e76b1327-0bf4-4ef4-98d3-e34d3672cc07")
 		(effects
@@ -23754,11 +23754,11 @@
 				(thickness 0.175)
 				(bold yes)
 			)
-			(justify left bottom mirror)
+			(justify bottom mirror)
 		)
 	)
 	(gr_text "Alt-0191\n"
-		(at 136.875 72.625 0)
+		(at 137 72.625 0)
 		(layer "B.SilkS")
 		(uuid "e80da3c8-828d-40d9-b17e-7f904a71916c")
 		(effects
