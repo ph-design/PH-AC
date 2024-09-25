@@ -12,7 +12,7 @@
 
 - 该设计文件仅限个人使用，不得用于商业用途。
 - 请保留设计中的所有标识和信息，未经授权不得删除或修改。
-- 允许通过3D打印代打服务商制造外壳，但请服务商保持常规代打按克重计算价格。
+- 允许通过3D打印代打服务商制造外壳，但请服务商保持常规克重计费。
 - 如发现高价售卖或其他侵权行为，请联系 [dev@phdesign.cc](mailto:dev@phdesign.cc)。
 
 ---
@@ -31,5 +31,5 @@ To view the full terms of this license, please visit the [Creative Commons BY-NC
 
 - This design file is for personal use only; commercial use is prohibited.
 - Retain all identifiers and information embedded in the design; do not remove or modify without permission.
-- The use of third-party 3D printing services to manufacture the housing is permitted, provided that the service provider calculates charges based on the weight of the printed material in accordance with their standard rates for similar services.
+- The use of third-party 3D printing services to manufacture the cases is allowed, provided the service provider charges based on material weight at their standard rates.
 - Report any high-priced sales or other violations please contact [dev@phdesign.cc](mailto:dev@phdesign.cc).
