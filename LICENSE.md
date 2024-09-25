@@ -31,4 +31,5 @@ To view the full terms of this license, please visit the [Creative Commons BY-NC
 
 - This design file is for personal use only; commercial use is prohibited.
 - Retain all identifiers and information embedded in the design; do not remove or modify without permission.
+- The use of third-party 3D printing services to manufacture the housing is permitted, provided that the service provider calculates charges based on the weight of the printed material in accordance with their standard rates for similar services.
 - Report any high-priced sales or other violations please contact [dev@phdesign.cc](mailto:dev@phdesign.cc).
