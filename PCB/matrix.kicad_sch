@@ -11,22 +11,22 @@
 		(company "Team PHDesign")
 	)
 	(lib_symbols
-		(symbol "Device:RotaryEncoder"
+		(symbol "Device:RotaryEncoder_Switch_MP"
 			(pin_names
 				(offset 0.254) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 6.604 0)
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "RotaryEncoder"
-				(at 0 -6.604 0)
+			(property "Value" "RotaryEncoder_Switch_MP"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -43,7 +43,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 6.604 0)
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -51,7 +51,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs"
+			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "rotary switch encoder switch push button"
 				(at 0 0 0)
 				(effects
 					(font
@@ -60,7 +69,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "rotary switch encoder"
+			(property "ki_fp_filters" "RotaryEncoder*Switch*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -69,16 +78,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "RotaryEncoder*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RotaryEncoder_0_1"
+			(symbol "RotaryEncoder_Switch_MP_0_1"
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -162,6 +162,30 @@
 				)
 				(polyline
 					(pts
+						(xy 3.81 0) (xy 3.429 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.016) (xy 3.81 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.032)
 					)
 					(stroke
@@ -210,6 +234,30 @@
 				)
 				(polyline
 					(pts
+						(xy 5.08 -2.54) (xy 4.318 -2.54) (xy 4.318 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 4.318 2.54) (xy 4.318 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
 					)
 					(stroke
@@ -232,8 +280,30 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 4.318 -1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "RotaryEncoder_1_1"
+			(symbol "RotaryEncoder_Switch_MP_1_1"
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -281,6 +351,60 @@
 						)
 					)
 					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -532,6 +656,34 @@
 			)
 		)
 	)
+	(junction
+		(at 95.25 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb07fcf0-7f3a-44c3-b0ae-9cac2362afeb")
+	)
+	(junction
+		(at 189.23 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7e871f1-04a3-4d0d-9cc5-e27d1d112eeb")
+	)
+	(no_connect
+		(at 162.56 76.2)
+		(uuid "349149a4-79a8-4f6d-a1d5-d7655a48ee83")
+	)
+	(no_connect
+		(at 162.56 71.12)
+		(uuid "bb1417f5-20f0-4f01-963a-7e5c22c4642f")
+	)
+	(no_connect
+		(at 121.92 76.2)
+		(uuid "cce20ec9-af52-4721-b6fb-095ec990d30b")
+	)
+	(no_connect
+		(at 121.92 71.12)
+		(uuid "f114ecaa-2799-4b04-9866-404c81f8bdca")
+	)
 	(wire
 		(pts
 			(xy 160.02 104.14) (xy 160.02 106.68)
@@ -554,6 +706,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 66.04) (xy 189.23 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1501f3ce-02b9-4c52-91c5-684800f709ab")
+	)
+	(wire
+		(pts
 			(xy 177.8 73.66) (xy 189.23 73.66)
 		)
 		(stroke
@@ -561,6 +723,16 @@
 			(type default)
 		)
 		(uuid "35c93f20-20f2-4453-8f01-3a3c9c9ce4a6")
+	)
+	(wire
+		(pts
+			(xy 189.23 66.04) (xy 189.23 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82bf0d08-2486-4d6e-8150-15b2264381c5")
 	)
 	(wire
 		(pts
@@ -594,7 +766,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 73.66) (xy 95.25 86.36)
+			(xy 95.25 83.82) (xy 95.25 73.66)
 		)
 		(stroke
 			(width 0)
@@ -624,6 +796,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 81.28) (xy 114.3 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc51b5dc-83c7-4eed-bc35-54a2fd3d5dcd")
+	)
+	(wire
+		(pts
 			(xy 180.34 104.14) (xy 180.34 106.68)
 		)
 		(stroke
@@ -631,6 +813,26 @@
 			(type default)
 		)
 		(uuid "d12381f2-9fb0-46d4-a7bc-ca5a8664f9bb")
+	)
+	(wire
+		(pts
+			(xy 95.25 83.82) (xy 114.3 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b90b52-de77-4838-b67d-eecc2cd561de")
+	)
+	(wire
+		(pts
+			(xy 95.25 83.82) (xy 95.25 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e70b1423-414e-4862-afbe-47fe0a44d0e5")
 	)
 	(wire
 		(pts
@@ -1625,7 +1827,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:RotaryEncoder")
+		(lib_id "Device:RotaryEncoder_Switch_MP")
 		(at 170.18 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1635,22 +1837,22 @@
 		(fields_autoplaced yes)
 		(uuid "69b94c84-9188-4bcc-bf8f-15be395c2546")
 		(property "Reference" "VOR-R1"
-			(at 170.18 63.5 0)
+			(at 170.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RotaryEncoder"
-			(at 170.18 66.04 0)
+		(property "Value" "RotaryEncoder_Switch_MP"
+			(at 170.18 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC12E_Vertical_H20mm"
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 			(at 173.99 77.724 0)
 			(effects
 				(font
@@ -1660,7 +1862,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 80.264 0)
+			(at 170.18 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1668,8 +1870,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs"
-			(at 170.18 73.66 0)
+		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
+			(at 170.18 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1695,11 +1897,20 @@
 				(hide yes)
 			)
 		)
+		(pin "S1"
+			(uuid "804e3f90-c097-4eb7-90f9-3fdc22ea6ee8")
+		)
 		(pin "C"
 			(uuid "a36bdd6c-a2e1-47a5-8fbf-631bd209a52c")
 		)
 		(pin "A"
 			(uuid "7e6ef6d2-f7b0-4613-88f1-8bf2fda4c7dc")
+		)
+		(pin "S2"
+			(uuid "8ef42c6b-0009-4a2d-a492-8ffcbdb2fcba")
+		)
+		(pin "MP"
+			(uuid "25c9047c-7247-4434-8517-0fab7cf643d9")
 		)
 		(pin "B"
 			(uuid "a00d1216-2292-4257-a6f9-ab44c10fd1f6")
@@ -1866,7 +2077,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:RotaryEncoder")
+		(lib_id "Device:RotaryEncoder_Switch_MP")
 		(at 114.3 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1876,24 +2087,22 @@
 		(fields_autoplaced yes)
 		(uuid "9503331e-ba6f-4352-b9f8-7ce7d9f45f39")
 		(property "Reference" "VOR-L1"
-			(at 120.65 72.3899 0)
+			(at 114.3 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "RotaryEncoder"
-			(at 120.65 74.9299 0)
+		(property "Value" "RotaryEncoder_Switch_MP"
+			(at 114.3 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC12E_Vertical_H20mm"
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 			(at 110.49 69.596 0)
 			(effects
 				(font
@@ -1903,7 +2112,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 67.056 0)
+			(at 114.3 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1911,8 +2120,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs"
-			(at 114.3 73.66 0)
+		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1944,8 +2153,17 @@
 		(pin "C"
 			(uuid "a3842bce-d47b-41b4-af2f-6d82452e0f02")
 		)
+		(pin "MP"
+			(uuid "e0dc0808-0393-4f1f-97ae-bfa68da98380")
+		)
 		(pin "B"
 			(uuid "70749d9a-b763-418c-83c5-b6078a618d13")
+		)
+		(pin "S1"
+			(uuid "14b56395-dc68-4933-84fc-f9322c416ec2")
+		)
+		(pin "S2"
+			(uuid "ac1bb8d2-0489-48c1-b981-57c66b047646")
 		)
 		(instances
 			(project ""
