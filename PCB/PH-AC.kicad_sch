@@ -5810,7 +5810,7 @@
 			)
 		)
 	)
-	(global_label "ENC2B"
+	(global_label "ENC1B"
 		(shape input)
 		(at 220.98 160.02 0)
 		(fields_autoplaced yes)
@@ -5898,7 +5898,7 @@
 			)
 		)
 	)
-	(global_label "ENC1B"
+	(global_label "ENC2B"
 		(shape input)
 		(at 220.98 157.48 0)
 		(fields_autoplaced yes)
@@ -5964,7 +5964,7 @@
 			)
 		)
 	)
-	(global_label "ENC2A"
+	(global_label "ENC1A"
 		(shape input)
 		(at 220.98 162.56 0)
 		(fields_autoplaced yes)
@@ -6008,7 +6008,7 @@
 			)
 		)
 	)
-	(global_label "ENC1A"
+	(global_label "ENC2A"
 		(shape input)
 		(at 220.98 154.94 0)
 		(fields_autoplaced yes)

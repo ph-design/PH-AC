@@ -58,12 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "hole_clearance|164450000|59930000|c333fc3e-d89b-4463-93c5-fa09de682d4d|26cd9d17-b074-4cc3-af11-62a38d431717",
-        "hole_clearance|164450000|59930000|c333fc3e-d89b-4463-93c5-fa09de682d4d|5c1a2d30-b8db-48b3-b3b2-ce2d9cc0b30a",
-        "hole_clearance|170550000|59930000|0d76eb41-339f-4821-92b1-46f1003acbbc|035a9c99-0a92-4adb-89e2-8b707773e8eb",
-        "hole_clearance|170550000|59930000|0d76eb41-339f-4821-92b1-46f1003acbbc|0a1ae6b5-5f80-438c-9d3f-49b7762cdc42"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -494,7 +489,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": -1,
     "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
