@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "PH-AC  --An arcade controller for Genshin-like games.")
-		(date "2024-07-19 => 2024-09-11")
-		(rev "Rev2.2")
+		(date "2024-07-19 => 2024-11-30")
+		(rev "Rev2.3")
 		(company "Team PHDesign")
 	)
 	(lib_symbols
