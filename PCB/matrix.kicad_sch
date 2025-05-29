@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "PH-AC  --An arcade controller for Genshin-like games.")
-		(date "2024-07-19 => 2024-11-30")
-		(rev "Rev2.3")
+		(date "2024-07-19 => 2025-6-1")
+		(rev "Rev3")
 		(company "Team PHDesign")
 	)
 	(lib_symbols
@@ -1421,6 +1421,72 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 86.36 12.7)
+		(end 284.48 82.55)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 032a60a0-ddad-4d03-94e4-070d3792d3b9)
+	)
+	(rectangle
+		(start 12.7 12.7)
+		(end 86.36 138.43)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6ad29de1-d186-459a-994f-edbf2d8c0263)
+	)
+	(rectangle
+		(start 86.36 82.55)
+		(end 284.48 161.29)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b97858f1-50ac-4a85-b9e7-1f19e4a1f21f)
+	)
+	(text "Encoder"
+		(exclude_from_sim yes)
+		(at 47.752 119.38 0)
+		(effects
+			(font
+				(size 7 7)
+			)
+		)
+		(uuid "0fa88519-3980-427b-801e-7e938404d8dc")
+	)
+	(text "Switch"
+		(exclude_from_sim yes)
+		(at 114.3 70.104 0)
+		(effects
+			(font
+				(size 7 7)
+			)
+		)
+		(uuid "9fb50fb1-285d-4071-82e6-c6e248eff107")
+	)
+	(text "RGB Light\n"
+		(exclude_from_sim yes)
+		(at 118.618 104.394 0)
+		(effects
+			(font
+				(size 7 7)
+			)
+		)
+		(uuid "f88a8296-21af-47d2-ad5d-4789aac19823")
+	)
 	(junction
 		(at 154.94 115.57)
 		(diameter 0)
@@ -2576,6 +2642,28 @@
 		(uuid "f8d57b9a-c706-4dd0-b004-ecddc077c07d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 228.5177 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RGB"
+		(shape input)
+		(at 190.5 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fcc55a5e-38e5-4666-bf2d-58c44ce535c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.7048 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
