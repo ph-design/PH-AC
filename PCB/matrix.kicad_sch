@@ -1446,6 +1446,18 @@
 		(uuid 6ad29de1-d186-459a-994f-edbf2d8c0263)
 	)
 	(rectangle
+		(start 251.46 138.43)
+		(end 283.21 151.13)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6b972487-98af-43f8-8a7c-311a5a37d356)
+	)
+	(rectangle
 		(start 86.36 82.55)
 		(end 284.48 161.29)
 		(stroke
@@ -1466,6 +1478,16 @@
 			)
 		)
 		(uuid "0fa88519-3980-427b-801e-7e938404d8dc")
+	)
+	(text "For better regulation,\nput this near the last LED\n(Not necessary indeed)"
+		(exclude_from_sim no)
+		(at 272.542 145.034 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+		(uuid "8473590f-3ec5-48da-bb5e-bf92e043319c")
 	)
 	(text "Switch"
 		(exclude_from_sim yes)
@@ -1540,6 +1562,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e13138b-cd61-4501-b299-7261c6e14c4c")
+	)
+	(junction
+		(at 228.6 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f1a0673-957d-4cbc-8e5a-042601d4234f")
 	)
 	(junction
 		(at 69.85 86.36)
@@ -1671,6 +1699,26 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 152.4) (xy 259.08 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f24ceef-b3ca-4f57-8da7-643ff00e94e2")
+	)
+	(wire
+		(pts
+			(xy 259.08 134.62) (xy 259.08 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fac2b9e-ce62-42dd-8be3-231bb36a82fd")
+	)
+	(wire
+		(pts
 			(xy 72.39 86.36) (xy 69.85 86.36)
 		)
 		(stroke
@@ -1678,6 +1726,16 @@
 			(type default)
 		)
 		(uuid "150f0517-53a1-4737-bff6-a6f58c86ceb5")
+	)
+	(wire
+		(pts
+			(xy 228.6 134.62) (xy 259.08 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1741163f-8d42-491a-b2b0-dc158c7739f7")
 	)
 	(wire
 		(pts
@@ -1961,6 +2019,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 134.62) (xy 228.6 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74461ae9-8fd7-4144-8df7-1fb408b37498")
+	)
+	(wire
+		(pts
 			(xy 147.32 144.78) (xy 162.56 144.78)
 		)
 		(stroke
@@ -2038,6 +2106,16 @@
 			(type default)
 		)
 		(uuid "901c2aaf-03d4-406d-a1da-fb9f63543387")
+	)
+	(wire
+		(pts
+			(xy 259.08 152.4) (xy 259.08 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9023eecf-adf7-42da-821e-e0f0b2fb1012")
 	)
 	(wire
 		(pts
@@ -2271,7 +2349,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 130.81) (xy 228.6 137.16)
+			(xy 228.6 130.81) (xy 228.6 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2670,6 +2748,75 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 259.08 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00437257-2f64-4f46-a2ec-e936d07114cc")
+		(property "Reference" "C11"
+			(at 252.73 141.4779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470u"
+			(at 252.476 147.0659 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.0452 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 259.08 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "560f68e9-f717-47be-9e36-18b1d450c79e")
+		)
+		(pin "2"
+			(uuid "22000ade-f2d1-439d-afa1-a45708c79eab")
+		)
+		(instances
+			(project ""
+				(path "/901590cc-6a38-407a-866f-346dd24c26e1/18b7c23a-94ec-414a-80c8-466e72838977"
+					(reference "C11")
+					(unit 1)
+				)
 			)
 		)
 	)
